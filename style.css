@@ -110,7 +110,7 @@ span {
     max-height: 550px;
     border: 2px solid aquamarine;
     flex-basis: 35%;
-    border-radius: 15px;
+    border-radius: 16px;
     box-shadow: 5px 5px 50px red;
 }
 
