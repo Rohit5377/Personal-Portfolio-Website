@@ -107,7 +107,7 @@ span {
 
 .about-col-1 {
     margin-top: 10px;
-    max-height: 550px;
+    max-height: 500px;
     border: 2px solid aquamarine;
     flex-basis: 35%;
     border-radius: 16px;
