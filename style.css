@@ -107,7 +107,7 @@ span {
 
 .about-col-1 {
     margin-top: 10px;
-    max-height: 500px;
+    height: 500px;
     border: 2px solid aquamarine;
     flex-basis: 35%;
     border-radius: 16px;
@@ -343,6 +343,9 @@ span {
 .btn:hover {
     background: #ff004f;
 }
+.btn:active {
+    background-color: black;
+}
 
 /* ---------------------------Contact Section-------------------------------- */
 .contact-left {
@@ -390,9 +393,6 @@ span {
     transition: 0.5s;
 }
 
-.btn.btn2:hover {
-    background: #ff004f;
-}
 
 .contact-right form {
     width: 100%;
