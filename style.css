@@ -17,7 +17,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(img2.webp);
+    background-image: url(images/img2.webp);
     background-size: cover;
     background-position: center;
 
@@ -443,7 +443,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(img9.webp);
+        background-image: url(images/img9.webp);
     }
 
     .header-text {
