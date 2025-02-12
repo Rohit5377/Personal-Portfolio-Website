@@ -41,13 +41,8 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p class="para">My name is Rohit Kumar and currently i am pursuing BCA last Sem from IIMT group of
-                        colleges. I have exposure knowledge in Html, CSS, Javascript, React Js, Core Java, Sql and i have worked
-                        on project using Html, CSS and Javascript like Amazon clone webpage and Tic Tae Toe game.
-                        I have done my school an intermediate from CBSE Board and I'm from Bihar but currently staying
-                        in Noida.
-                        Currently I'm looking for a entry level job as a Full Stack Developer where i can launch my career
-                        and enhence my Skills with the Organisation.
+                    <p class="para">My name is Rohit Kumar, and I am currently pursuing MCA from GL Bajaj Institute of Technology and Management. I am a Java Full Stack Developer with knowledge of technologies like HTML, CSS, Tailwind CSS, JavaScript, Spring Boot, Spring MVC, Hibernate and MySql. I have worked on projects such as Smart Contact Manager and a File Sharing App, gaining hands-on experience in full-stack development.
+                    I completed my schooling and intermediate education under the CBSE Board. I am originally from Bihar but currently staying in Noida. I am actively seeking an entry-level job as a Full Stack Developer, where I can kickstart my career and enhance my skills while contributing to the organization's growth.
                     </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -56,23 +51,25 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Frontend</span><br>Html, CSS, Javascript, React Js</li>
-                            <li><span>Backend</span><br>Java</li>
+                            <li><span>Frontend</span><br>Html, CSS, Javascript, Tailwind CSS, Bootstrap</li>
+                            <li><span>Backend</span><br>Java, Spring Boot, Spring MVC, Hibernate</li>
                             <li><span>Databse</span><br>SQL, Mysql</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Project 1</span><br>Personal Portfolio website</li>
-                            <li><span>Project 2</span><br>Tour & Travel Website</li>
-                            <li><span>Project 3</span><br>API Integrated Dictonary App</li>
-                            <li><span>Project 4</span><br>Tic Tac Toe Game</li>
-                            <li><span>Project 5</span><br>Clone of Amazon Webpage</li>
+                            <li><span>Project 1</span><br>Smart Contact Manager</li>
+                            <li><span>Project 2</span><br>File Sharing App</li>
+                            <li><span>Project 3</span><br>E-commerce website</li>
+                            <li><span>Project 4</span><br>Tour & Travel Website</li>
+                            
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2021-2024</span><br>Beachlor's Of Computer Application from CCSU (curretnt= 73.5%)
+                            <li><span>2024-2026</span><br>Master's Of Computer Application from GL Bajaj Institute of technology and Management, Greater Noida
+                            </li>
+                            <li><span>2021-2024</span><br>Beachlor's Of Computer Application from IIMT College Of Management (secured= 74.4%)
                             </li>
                             <li><span>2019-2021</span><br>12th from ST. R.V. Convent School (secured= 93.6%)</li>
                             <li><span>2018-2019</span><br>10th from Narayana Public School (secured= 84.4%)</li>
@@ -118,6 +115,22 @@
         <div class="container">
             <h1 class="sub-title">My Projects</h1>
             <div class="work-list">
+                <div class="work">
+                    <img src="images/img10.webp">
+                    <div class="layer">
+                        <h3>Smart Contact Manager</h3>
+                        <p>This website is used for managing contacts.</p>
+                        <a href="https://github.com/Rohit5377/Smart-Contact-Manager"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img11.webp">
+                    <div class="layer">
+                        <h3>File Sharing App</h3>
+                        <p>This website is used share files</p>
+                        <a href="https://github.com/Rohit5377/File-Sharing-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
                 <div class="work">
                     <img src="images/img4.webp">
                     <div class="layer">
@@ -253,7 +266,7 @@
 
         loadMoreBtn.onclick = () => {
             let boxes = [...document.querySelectorAll('#portfolio .container .work-list .work')];
-            for (var i = currentItem; i < currentItem + 3; i++) {
+            for (var i = currentItem; i < currentItem + 5; i++) {
                 boxes[i].style.display = 'inline-block';
                 loadMoreBtn.style.display = 'none';
             };
