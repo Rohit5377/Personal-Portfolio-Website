@@ -1,277 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/img1.webp" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Full Stack Developer</p>
-                <h1>Hi, I'm <span class="name">Rohit Kumar</span><br> From Noida</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/img1.webp" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi, I'm <span class="name">Rohit Kumar</span><br />
+            From Noida
+          </h1>
         </div>
+      </div>
     </div>
     <!-- ---------------------About Section------------------------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/img3.webp">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p class="para">My name is Rohit Kumar, and I am currently pursuing MCA from GL Bajaj Institute of Technology and Management. I am a Java Full Stack Developer with knowledge of technologies like HTML, CSS, Tailwind CSS, JavaScript, Spring Boot, Spring MVC, Hibernate and MySql. I have worked on projects such as Smart Contact Manager and a File Sharing App, gaining hands-on experience in full-stack development.
-                    I completed my schooling and intermediate education under the CBSE Board. I am originally from Bihar but currently staying in Noida. I am actively seeking an entry-level job as a Full Stack Developer, where I can kickstart my career and enhance my skills while contributing to the organization's growth.
-                    </p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Frontend</span><br>Html, CSS, Javascript, Tailwind CSS, Bootstrap</li>
-                            <li><span>Backend</span><br>Java, Spring Boot, Spring MVC, Hibernate</li>
-                            <li><span>Databse</span><br>SQL, Mysql</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Project 1</span><br>Smart Contact Manager</li>
-                            <li><span>Project 2</span><br>File Sharing App</li>
-                            <li><span>Project 3</span><br>E-commerce website</li>
-                            <li><span>Project 4</span><br>Tour & Travel Website</li>
-                            
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2024-2026</span><br>Master's Of Computer Application from GL Bajaj Institute of technology and Management, Greater Noida
-                            </li>
-                            <li><span>2021-2024</span><br>Beachlor's Of Computer Application from IIMT College Of Management (secured= 74.4%)
-                            </li>
-                            <li><span>2019-2021</span><br>12th from ST. R.V. Convent School (secured= 93.6%)</li>
-                            <li><span>2018-2019</span><br>10th from Narayana Public School (secured= 84.4%)</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/img3.webp" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="para">
+              My name is Rohit Kumar, and I am currently pursuing MCA from GL
+              Bajaj Institute of Technology and Management. I am a Java Full
+              Stack Developer with knowledge of technologies like HTML, CSS,
+              Tailwind CSS, JavaScript, Spring Boot, Spring MVC, Hibernate and
+              MySql. I have worked on projects such as Smart Contact Manager and
+              a File Sharing App, gaining hands-on experience in full-stack
+              development. I completed my schooling and intermediate education
+              under the CBSE Board. I am originally from Bihar but currently
+              staying in Noida. I am actively seeking an entry-level job as a
+              Full Stack Developer, where I can kickstart my career and enhance
+              my skills while contributing to the organization's growth.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend</span><br />Html, CSS, Javascript, Tailwind
+                  CSS, Bootstrap
+                </li>
+                <li>
+                  <span>Backend</span><br />Java, Spring Boot, Spring MVC,
+                  Hibernate
+                </li>
+                <li><span>Databse</span><br />SQL, Mysql</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Project 1</span><br />Smart Contact Manager</li>
+                <li><span>Project 2</span><br />File Sharing App</li>
+                <li><span>Project 3</span><br />E-commerce website</li>
+                <li><span>Project 4</span><br />Tour & Travel Website</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024-2026</span><br />Master's Of Computer Application
+                  from GL Bajaj Institute of technology and Management, Greater
+                  Noida
+                </li>
+                <li>
+                  <span>2021-2024</span><br />Beachlor's Of Computer Application
+                  from IIMT College Of Management (secured= 74.4%)
+                </li>
+                <li>
+                  <span>2019-2021</span><br />12th from ST. R.V. Convent School
+                  (secured= 93.6%)
+                </li>
+                <li>
+                  <span>2018-2019</span><br />10th from Narayana Public School
+                  (secured= 84.4%)
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- ------------------------------Services Section ------------------------------- -->
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Frontend Developer</h2>
-                    <p>I'm responsible for creating the layout, structure, and interactivity of a website or web
-                        application using languages such as HTML, CSS, and JavaScript.
-                        Ensuring that websites are optimized for various devices and screen sizes, providing a seamless
-                        user experience across desktops, tablets, and mobile devices.
-                        Designing the visual elements of a website or application, including buttons, menus, forms, and
-                        other interactive components, to enhance usability and aesthetics.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-file-code"></i>
-                    <h2>Backend Developer</h2>
-                    <p>I'm Writing code that runs on the server to handle client requests, process data, and generate
-                        dynamic content. This involves using backend programming languages such as Java and
-                        designing, implementing, and maintaining databases to store and manage application data
-                        efficiently. This includes database modeling, querying, optimization, and ensuring data
-                        integrity and security.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Developer</h2>
+            <p>
+              I'm responsible for creating the layout, structure, and
+              interactivity of a website or web application using languages such
+              as HTML, CSS, and JavaScript. Ensuring that websites are optimized
+              for various devices and screen sizes, providing a seamless user
+              experience across desktops, tablets, and mobile devices. Designing
+              the visual elements of a website or application, including
+              buttons, menus, forms, and other interactive components, to
+              enhance usability and aesthetics.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-file-code"></i>
+            <h2>Backend Developer</h2>
+            <p>
+              I'm Writing code that runs on the server to handle client
+              requests, process data, and generate dynamic content. This
+              involves using backend programming languages such as Java and
+              designing, implementing, and maintaining databases to store and
+              manage application data efficiently. This includes database
+              modeling, querying, optimization, and ensuring data integrity and
+              security.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- -------------------------Projects Section-------------------------------- -->
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/img10.webp">
-                    <div class="layer">
-                        <h3>Smart Contact Manager</h3>
-                        <p>This website is used for managing contacts.</p>
-                        <a href="https://github.com/Rohit5377/Smart-Contact-Manager"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/img11.webp">
-                    <div class="layer">
-                        <h3>File Sharing App</h3>
-                        <p>This website is used share files</p>
-                        <a href="https://github.com/Rohit5377/File-Sharing-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/img4.webp">
-                    <div class="layer">
-                        <h3>Tour & Travel Website</h3>
-                        <p>This website is used for booking trips.</p>
-                        <a href="https://rohit5377.github.io/Travel-website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/img5.webp">
-                    <div class="layer">
-                        <h3>Personal portfolio</h3>
-                        <p>This is my personal portfolio website.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/img6.webp">
-                    <div class="layer">
-                        <h3>API Integrated Dictionary App</h3>
-                        <p>This app is used to search meaning of words.</p>
-                        <a href="https://rohit5377.github.io/API-Integrated-Dictonary-App/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/img7.webp">
-                    <div class="layer">
-                        <h3>Tic Tae Toe Game</h3>
-                        <p>This is a game which is played by two players at a time.</p>
-                        <a href=" https://rohit5377.github.io/Tic-Tac-Toe-Game/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/img8.webp">
-                    <div class="layer">
-                        <h3>Amazon Clone Webpage</h3>
-                        <p>This website is use for online shopping.</p>
-                        <a href="https://rohit5377.github.io/Amazon-Clone-Webpage/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/img10.webp" />
+            <div class="layer">
+              <h3>Smart Contact Manager</h3>
+              <p>This website is used for managing contacts.</p>
+              <a href="https://github.com/Rohit5377/Smart-Contact-Manager"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </div>
-            <span class="btn">See more</span>
+          </div>
+          <div class="work">
+            <img src="images/img11.webp" />
+            <div class="layer">
+              <h3>File Sharing App</h3>
+              <p>This website is used share files</p>
+              <a href="https://github.com/Rohit5377/File-Sharing-App"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/img4.webp" />
+            <div class="layer">
+              <h3>Tour & Travel Website</h3>
+              <p>This website is used for booking trips.</p>
+              <a href="https://rohit5377.github.io/Travel-website/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/img5.webp" />
+            <div class="layer">
+              <h3>Personal portfolio</h3>
+              <p>This is my personal portfolio website.</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/img6.webp" />
+            <div class="layer">
+              <h3>API Integrated Dictionary App</h3>
+              <p>This app is used to search meaning of words.</p>
+              <a
+                href="https://rohit5377.github.io/API-Integrated-Dictonary-App/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/img7.webp" />
+            <div class="layer">
+              <h3>Tic Tae Toe Game</h3>
+              <p>This is a game which is played by two players at a time.</p>
+              <a href=" https://rohit5377.github.io/Tic-Tac-Toe-Game/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/img8.webp" />
+            <div class="layer">
+              <h3>Amazon Clone Webpage</h3>
+              <p>This website is use for online shopping.</p>
+              <a href="https://rohit5377.github.io/Amazon-Clone-Webpage/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <span class="btn">See more</span>
+      </div>
     </div>
     <!-- -------------------Contact Section-------------------------------- -->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>rohitkumar5377449@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>7011959310</p><br>
-                    <div class="social-icons">
-                        <a href="https://www.instagram.com/_rohit162?igsh=dTZmaTVnZmk5Znh4"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://linkedin.com/in/rohit-kumar-1ba558228"><i
-                                class="fa-brands fa-linkedin"></i></a>
-
-                    </div>
-                    <a href="Resume/Resume.pdf" download class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>rohitkumar5377449@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>7011959310</p>
+            <br />
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/_rohit162?igsh=dTZmaTVnZmk5Znh4"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com/in/rohit-kumar-1ba558228"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
+            <a href="Resume/Resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Developed with<i class="fa-solid fa-heart"></i> by Rohit Kumar</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>Developed with<i class="fa-solid fa-heart"></i> by Rohit Kumar</p>
+      </div>
     </div>
-
 
     <!-- -----------------------------Javascript Code------------------------------ -->
 
     <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
     <script>
-        var sidemenu = document.getElementById("sidemenu");
+      var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
 
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-
-
-
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwyqu_hAdEpwOxreXNaONlrL93FEU55atF2FcT-I1S3zaSiqMrpT9AMaHEmIFbyk8Rncg/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg");
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbymvrOQ20xalTLBfO4lDQkXTP1ByUQm5blAedy0vmFS0fZnKmwQSgevCoCWEdPXIHhe6A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully"
-                    setTimeout(function () {
-                        msg.innerHTML = " "
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        });
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
 
-        let loadMoreBtn = document.querySelector('#portfolio .container .btn');
-        let currentItem = 3;
+        msg.innerHTML = "Sending..."; 
 
-        loadMoreBtn.onclick = () => {
-            let boxes = [...document.querySelectorAll('#portfolio .container .work-list .work')];
-            for (var i = currentItem; i < currentItem + 5; i++) {
-                boxes[i].style.display = 'inline-block';
-                loadMoreBtn.style.display = 'none';
-            };
+        try {
+          const response = await fetch(scriptURL, {
+            method: "POST",
+            body: new FormData(form),
+          });
+
+          if (response.ok) {
+            msg.innerHTML = "Message sent successfully!";
+          } else {
+            msg.innerHTML = "Failed to send message.";
+          }
+        } catch (error) {
+          console.error("Error!", error);
+          msg.innerHTML = "Error sending message.";
         }
-    </script>
-</body>
 
+        setTimeout(() => {
+          msg.innerHTML = ""; 
+        }, 500); 
+
+        form.reset();
+      });
+
+      let loadMoreBtn = document.querySelector("#portfolio .container .btn");
+      let currentItem = 3;
+
+      loadMoreBtn.onclick = () => {
+        let boxes = [
+          ...document.querySelectorAll(
+            "#portfolio .container .work-list .work"
+          ),
+        ];
+        for (var i = currentItem; i < currentItem + 5; i++) {
+          boxes[i].style.display = "inline-block";
+          loadMoreBtn.style.display = "none";
+        }
+      };
+    </script>
+  </body>
 </html>
